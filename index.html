@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web-based resume of Alark Darshan Mhatre, Computer Engineering student from Mumbai.">
+  <title>Alark Darshan Mhatre — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="navbar">
+    <a href="#home" class="wordmark">pixel<span>&amp;</span>packet</a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#objective">Objective</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="theme-switch" id="themeToggle" role="switch" aria-checked="false" aria-label="Dark mode">
+        <span class="knob">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.6" fill="currentColor"/>
+            <g stroke="currentColor" stroke-width="2.2">
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(45 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(90 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(135 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(180 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(225 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(270 12 12)"/>
+              <line x1="12" y1="2" x2="12" y2="5" transform="rotate(315 12 12)"/>
+            </g>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="currentColor"/>
+          </svg>
+        </span>
+      </button>
+      <a href="#contact" class="pill-btn solid hide-sm">Let's talk</a>
+      <button class="pill-btn menu-btn" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ HOME / PROFILE ============ -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+
+        <div class="hero-copy">
+          <p class="mono eyebrow">Computer Engineering · Mumbai, Maharashtra</p>
+          <h1 class="display">Alark<br>Mhatre.</h1>
+          <p class="hero-sub">I build web and mobile apps with React and React Native.</p>
+          <div class="hero-actions">
+            <a href="resume.pdf" target="_blank" rel="noopener" class="btn solid">View Resume ↗</a>
+            <a href="#projects" class="btn">See my work</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo c-orange">
+            <div class="code-window" aria-label="Current coding status snippet">
+              <div class="window-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+
+              <pre class="code-snippet"><code>{
+  "status": "Coding &amp; Building",
+  "location": "Mumbai, IN",
+  "focus": ["React", "React Native"]
+}</code></pre>
+            </div>
+
+            <img src="profile.jpg" alt="Photograph of Alark Darshan Mhatre" id="profileImg"
+                 onerror="this.style.display='none';">
+            <div class="photo-caption">
+              <span class="mono">Based in</span>
+              <strong>Mumbai, India</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a href="#objective" class="mono scroll-hint">Scroll to explore ↓</a>
+    </section>
+
+    <!-- marquee -->
+    <div class="marquee c-blue" aria-hidden="true">
+      <div class="marquee-track" id="marqueeTrack">
+        <span>Java</span><span>✳</span><span>C++</span><span>✳</span><span>C</span><span>✳</span>
+        <span>Python</span><span>✳</span><span>JavaScript</span><span>✳</span><span>React</span><span>✳</span>
+        <span>React Native</span><span>✳</span><span>Node.js</span><span>✳</span><span>Figma</span><span>✳</span>
+      </div>
+    </div>
+
+    <!-- ============ CAREER OBJECTIVE ============ -->
+    <section class="section" id="objective">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display">Objective</h2>
+          <span class="mono">(01)</span>
+        </div>
+        <p class="statement reveal">
+          Aspiring developer building apps with React and React Native, backed by strong Java
+          fundamentals, a working sense of UI/UX, and a deep interest in data communication,
+          networking and network security.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display">Education</h2>
+          <span class="mono">(02)</span>
+        </div>
+
+        <div class="list">
+          <article class="row reveal">
+            <span class="mono num">01</span>
+            <span class="mono date">2026 — 2029</span>
+            <div>
+              <h3>B.Tech, Computer Engineering</h3>
+              <p class="muted">MET Shah &amp; Anchor Kutchhi Engineering College, Mumbai</p>
+              <p class="muted coursework">Coursework: Java programming, software testing, network security and cryptography (S/MIME, X.509 certificates, firewall policy design).</p>
+            </div>
+            <span class="mono score">GPA 9.5</span>
+          </article>
+
+          <article class="row reveal">
+            <span class="mono num">02</span>
+            <span class="mono date"></span>
+            <div>
+              <h3>Diploma</h3>
+              <p class="muted">VES Polytechnic, Mumbai</p>
+            </div>
+            <span class="mono score">Final year 93.35%</span>
+          </article>
+
+          <article class="row reveal">
+            <span class="mono num">03</span>
+            <span class="mono date"></span>
+            <div>
+              <h3>Secondary School (10th)</h3>
+            </div>
+            <span class="mono score">91.00%</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TECHNICAL SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display">Skills</h2>
+          <span class="mono">(03)</span>
+        </div>
+
+        <div class="skills-grid grid-5">
+          <article class="block c-lime reveal">
+            <p class="mono">Languages</p>
+            <h3 class="display">Code</h3>
+            <ul class="tags"><li>Java</li><li>C</li><li>C++</li><li>Python</li><li>JavaScript</li></ul>
+          </article>
+
+          <article class="block c-lav reveal">
+            <p class="mono">Frameworks &amp; libraries</p>
+            <h3 class="display">Build</h3>
+            <ul class="tags"><li>React</li><li>React Native</li><li>Node.js</li><li>Chart.js</li><li>HTML5</li><li>CSS3</li></ul>
+          </article>
+
+          <article class="block c-pink reveal">
+            <p class="mono">Tools &amp; design</p>
+            <h3 class="display">Tools</h3>
+            <ul class="tags"><li>Git</li><li>GitLab</li><li>GitHub</li><li>Figma</li><li>UI / UX</li></ul>
+          </article>
+
+          <article class="block c-yellow reveal">
+            <p class="mono">Core concepts</p>
+            <h3 class="display">Core</h3>
+            <ul class="tags"><li>Object-Oriented Programming</li><li>Data Structures</li><li>Network Security</li><li>Cryptography</li><li>Software Testing</li></ul>
+          </article>
+
+          <article class="block c-orange reveal">
+            <p class="mono">Spoken</p>
+            <h3 class="display">Speak</h3>
+            <ul class="tags"><li>English (Professional)</li><li>Spanish (Basic)</li><li>French (Basic)</li><li>German (Understanding)</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display">Selected<br>Work</h2>
+          <span class="mono">(04)</span>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" data-filter="all">All work <span class="count"></span></button>
+          <button class="filter" data-filter="web">Web <span class="count"></span></button>
+          <button class="filter" data-filter="app">Software <span class="count"></span></button>
+          <button class="filter" data-filter="other">Other <span class="count"></span></button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project c-orange reveal" data-cat="app">
+            <div class="project-top mono"><span>01 / 05</span><span>Software</span></div>
+            <div>
+              <h3 class="display">Marksheet<br>Parser</h3>
+              <p>An award-winning tool that parses marksheets into structured data and generates useful analytics from the results.</p>
+              <ul class="tags"><li>Award winner</li></ul>
+            </div>
+          </article>
+
+          <article class="project c-blue reveal" data-cat="web">
+            <div class="project-top mono"><span>02 / 05</span><span>Web</span></div>
+            <div>
+              <h3 class="display">Cineloom</h3>
+              <p>A movie information platform where cinema enthusiasts can look up details on any movie.</p>
+              <ul class="tags"><li>JavaScript</li><li>React</li></ul>
+            </div>
+          </article>
+
+          <article class="project c-yellow reveal" data-cat="web">
+            <div class="project-top mono"><span>03 / 05</span><span>Web</span></div>
+            <div>
+              <h3 class="display">Expense<br>Tracker</h3>
+              <p>A web app for tracking your daily expenses, with charts that make spending easy to see.</p>
+              <ul class="tags"><li>JavaScript</li><li>React</li><li>Chart.js</li></ul>
+            </div>
+          </article>
+
+          <article class="project c-pink reveal" data-cat="app">
+            <div class="project-top mono"><span>04 / 05</span><span>Software</span></div>
+            <div>
+              <h3 class="display">eyecon</h3>
+              <p>A React Native app for clean wallpapers.</p>
+              <ul class="tags"><li>React Native</li></ul>
+            </div>
+          </article>
+
+          <article class="project c-lime reveal" data-cat="app">
+            <div class="project-top mono"><span>05 / 05</span><span>Software</span></div>
+            <div>
+              <h3 class="display">WhatsApp<br>Clone</h3>
+              <p>A messaging application in Java, inspired by WhatsApp. Currently in progress.</p>
+              <ul class="tags"><li>Java</li><li>In progress</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display">Achieve&shy;ments</h2>
+          <span class="mono">(05)</span>
+        </div>
+
+        <div class="skills-grid">
+          <article class="block c-lime reveal">
+            <p class="mono">01 / 03</p>
+            <h3 class="display big-num">01</h3>
+            <h4>Award Winner — Marksheet Parser</h4>
+            <p>Recognised for a project that parses marksheets and generates useful analytics.</p>
+          </article>
+          <article class="block c-orange reveal">
+            <p class="mono">02 / 03</p>
+            <h3 class="display big-num">02</h3>
+            <h4>VES Technothon</h4>
+            <p>Grand finalist at a state-level hackathon organised at VES Polytechnic.</p>
+          </article>
+          <article class="block c-lav reveal">
+            <p class="mono">03 / 03</p>
+            <h3 class="display big-num">03</h3>
+            <h4>Institution's Innovation Council (IIC)</h4>
+            <p>Core member of the IIC wing at VES Polytechnic.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="cta c-blue reveal">
+          <p class="mono">Contact information</p>
+          <h2 class="display">Let's work together.</h2>
+          <a href="mailto:alark.mhatre@gmail.com" class="btn light">alark.mhatre@gmail.com ↗</a>
+        </div>
+
+        <div class="list contact-list">
+          <a class="row contact reveal" href="mailto:alark.mhatre@gmail.com">
+            <span class="mono num">01</span><h3>Email</h3><span class="mono score">alark.mhatre@gmail.com</span>
+          </a>
+          <a class="row contact reveal" href="tel:+918879123216">
+            <span class="mono num">02</span><h3>Phone</h3><span class="mono score">+91 88791 23216</span>
+          </a>
+          <a class="row contact reveal" href="https://www.linkedin.com/in/alark-mhatre-1551a9385" target="_blank" rel="noopener">
+            <span class="mono num">03</span><h3>LinkedIn</h3><span class="mono score">/in/alark-mhatre-1551a9385 ↗</span>
+          </a>
+          <a class="row contact reveal" href="https://gitlab.com/Alark-Mhatre" target="_blank" rel="noopener">
+            <span class="mono num">04</span><h3>GitLab</h3><span class="mono score">/Alark-Mhatre ↗</span>
+          </a>
+          <a class="row contact reveal" href="https://github.com/Alark-Mhatre" target="_blank" rel="noopener">
+            <span class="mono num">05</span><h3>GitHub</h3><span class="mono score">/Alark-Mhatre ↗</span>
+          </a>
+          <div class="row contact reveal">
+            <span class="mono num">06</span><h3>Location</h3><span class="mono score">Mumbai, Maharashtra, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-in mono">
+      <span>© <span id="year"></span> Alark Darshan Mhatre</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
